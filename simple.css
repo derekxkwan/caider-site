@@ -1,0 +1,91 @@
+html,body{
+  font-family:"Georgia", serif;
+  color:black;
+    margin:0;
+  padding:15px;
+  background-color:white;
+  background-size:auto;
+  background-repeat:repeat;
+  background-attachment: fixed;
+}
+img{
+	border:0px;
+}
+.noBorder{
+	border:0px;
+	max-width:95%;
+
+}
+
+#pgHeader,#meat{
+	position:static;
+	clear:both;
+	padding-left:10px;
+	padding-right:10px;
+}
+
+#pgHeader{
+    font-weight:bold;
+	width:80%;
+  color:black;
+  padding-bottom: 10px;
+}
+
+#back{
+	font-size:1.2em;
+}
+
+a{
+	text-decoration:none;
+}
+
+.tabLink,a{
+     color: #ad5f5f;
+
+}
+.tabLink:hover,a:hover{
+	color:#ffaa55;
+}
+
+.subtitle{
+	font-size:2em;
+	font-weight:bold;
+}
+
+#pgTitle{
+ font-size:2em;
+ font-weight:bold;
+ text-transform:uppercase; 
+}
+
+iframe
+{
+max-width:100%;
+}
+
+@media(max-width:1080px)
+{
+
+#pgTitle{
+ font-size:30px;   
+}
+
+.subtitle{
+font-size:12.5px;
+}
+
+#pgHeader,#meat{
+	padding-left:3px;
+	padding-right:3px;
+}
+
+#pgHeader{
+
+  padding-bottom: 3px;
+}
+
+html,body
+{
+    padding:3px;
+}
+}
