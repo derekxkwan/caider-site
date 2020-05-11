@@ -1,12 +1,12 @@
 html,body{
-  font-family:"Georgia", serif;
+  font-family:"Courier", serif;
 
     	color:black;
 
     margin:0;
   padding:15px;
   background-color:white;
-  background-image:url(images/noiseGend.png);
+  background-image:url(images/noiseTidal.jpeg);
   background-size:auto;
   background-repeat:repeat;
   background-attachment: fixed;
